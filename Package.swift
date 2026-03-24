@@ -17,7 +17,7 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(path: "../wuhu-fetch"),
+    .package(url: "https://github.com/wuhu-labs/wuhu-fetch", branch: "main"),
   ],
   targets: [
     .target(
